@@ -1,0 +1,26 @@
+
+Steps to build and run the app
+
+1. git clone
+2. Use Gradle 8.0; AGP 8.1.2;
+3. build the project in android studio
+
+Assumptions made
+
+- The app was developed in limited amount of time
+- The app is still functional and does not crash
+- Permission and errors are handled properly
+- Architecture needs some improvement
+
+Challenges faced and how they were addressed.
+
+1. Architecture and Camera coupling
+
+There are 3 separate classes to manage Camera business logic
+`CameraFragment`; `MainUIHelper`; and `DetectorViewModel`
+
+2. Common renderer for Android Views and PNG
+
+- The app uses `ResultRenderer` to reuse the part of code responsible for rendering results
+
+Feel free to ask any questions!
